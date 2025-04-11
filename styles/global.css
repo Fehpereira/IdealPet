@@ -1,0 +1,14 @@
+:root{
+  --color-primary: #15294B; 
+  --color-secondary: #003459;
+  --text-color-primary: #242B33;
+  --text-color-secondary: #7D7A78;
+  --ff-primary: "New Kansas", monospace;
+  --ff-secondary: "Inter", sans-serif;
+}
+
+*, *::before, *::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

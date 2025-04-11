@@ -28,6 +28,10 @@ section {
        }
     }
 
+    & > img {
+      margin-top: 1rem;
+    }
+
     & .buttons-wrapper {
       display: flex;
       justify-content: center;

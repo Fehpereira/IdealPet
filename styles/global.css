@@ -1,4 +1,5 @@
 :root{
+  --bg-color: #F0F2ED;
   --color-primary: #15294B; 
   --color-secondary: #003459;
   --text-color-primary: #242B33;
@@ -11,4 +12,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 25.875rem 1fr;
 }

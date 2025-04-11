@@ -1,0 +1,15 @@
+nav {
+  grid-column: 2;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  background-color: var(--bg-color);
+  padding: 1rem;
+  border-radius: 5rem;
+  align-items: center;
+ 
+  & img{
+    display: inline-block;
+    max-width: 7.08375rem;
+  }
+}

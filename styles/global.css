@@ -18,3 +18,33 @@ body {
   display: grid;
   grid-template-columns: 1fr 25.875rem 1fr;
 }
+
+.buttons-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.875rem;
+  gap: .5rem;
+
+  & span {
+    display: inline-block;
+    padding: 0.75rem 1.75rem;
+    border: 2px solid var(--color-secondary);
+    color: var(--color-secondary);
+    border-radius: 5rem;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    cursor: pointer;
+    font-weight: 550;
+
+    & img{
+      border: 2px solid var(--color-secondary);
+      border-radius: 5rem;
+    }
+
+    &:nth-child(2){
+      background-color: var(--color-secondary);
+      color: #fdfdfd;
+    }
+  }
+}

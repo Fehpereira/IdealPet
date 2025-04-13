@@ -81,7 +81,55 @@
       font-weight: 500;
     }
   }
+
+  & .dog-jump {
+    position: relative;
+    max-width: 23.875rem;
+    margin-top: 21rem;
+    background-color: #F0F2ED;
+    border-radius: 1.25rem;
+    height: 32.6875rem;
+
+    & header{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 1.625rem;
+
+      & h2{
+        font-size: 2.35555625rem;
+        color: var(--color-secondary);
+        line-height: 1.2;
+      }
+      & p{
+        font-size: 0.7125rem;
+        width: 20.3125rem;
+        text-align: center;
+        line-height: 1.5;
+        font-family: var(--ff-primary);
+      }
+    }
+
+    & .buttons-wrapper{
+      margin-top: 1rem;
+    }
+
+    & img[src*="dog-jump"]{
+      width: 23.625rem;
+
+      margin-top: 0.6875rem;
+    }
+
+    & img[src*="spot"]{
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      border-bottom-left-radius: 1.25rem;
+    }
+  }
 }
+
+
 
 
 

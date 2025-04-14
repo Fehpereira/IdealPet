@@ -17,6 +17,7 @@
 body {
   display: grid;
   grid-template-columns: 1fr minmax(15rem ,25.875rem) 1fr;
+  /* overflow-x: hidden; */
 }
 
 .buttons-wrapper {

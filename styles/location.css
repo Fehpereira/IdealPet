@@ -1,0 +1,29 @@
+.location {
+  margin-top: 2.375rem;
+  & figure {
+    position: relative;
+    & figcaption {
+      display: flex;
+      flex-direction: column;
+
+      & .filter{
+        align-self: center;
+        position: absolute;
+        top: 1.23625rem;
+        display: flex;
+        background-color: white;
+        border-radius: 1.7rem;
+        padding: 0.9375rem 1.875rem;
+        gap: 0.625rem;
+        align-items: center;
+        opacity: 0.85;
+        
+        & legend {
+          font-family: "Inter", sans-serif;
+          font-size: 1.23625rem;
+        }
+        
+      }
+    }
+  }
+}

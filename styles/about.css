@@ -82,7 +82,7 @@
     }
   }
 
-  & .dog-jump {
+  & .dogs-about {
     position: relative;
     max-width: 23.875rem;
     margin-top: 21rem;
@@ -125,6 +125,19 @@
       left: 0;
       bottom: 0;
       border-bottom-left-radius: 1.25rem;
+    }
+  }
+
+  & .dog-mail{
+    margin-top: 0.6875rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & img{
+      width: 25.659375rem;
+      max-height: 21.875rem;
     }
   }
 }

@@ -1,0 +1,13 @@
+.pet-muzzle{
+  display: grid;
+  grid-template-columns: 1fr 11.5625rem 1fr 11.5625 1fr;
+
+  & figure {
+    max-width: 11.5625rem;
+    grid-column: 2/3;
+
+    & figcaption {
+      max-width: 10.0625rem;
+    }
+  }
+}

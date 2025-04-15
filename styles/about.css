@@ -32,7 +32,7 @@
 
        & p{
         color: var(--color-primary);
-        font-family: serif;
+        font-family: var(--ff-primary);
         text-align:center;
         font-size: 1.5rem;
         font-weight: 550;
@@ -58,10 +58,13 @@
     & h2 {
       margin-top: 2.125rem;
       color: #322D2A;
-      font-size: 2.25rem;
+      font-size: 1.724375rem;
+      width: 20.3125rem;
       font-family: var(--ff-primary);
       font-weight: 500;
+      line-height: 1.3;
       text-align: center;
+      letter-spacing: -0.413793px;
 
       & strong{
         color: #E8A728;
@@ -141,8 +144,5 @@
     }
   }
 }
-
-
-
 
 

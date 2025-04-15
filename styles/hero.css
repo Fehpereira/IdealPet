@@ -13,13 +13,13 @@ section {
         line-height: 1;
         color: var(--color-primary);
         font-size: 3rem;
-        width: 16rem;
+        width: 17.75rem;
         font-family: var(--ff-primary);
        }
 
        & p{
         color: var(--color-primary);
-        font-family: serif;
+        font-family: var(--ff-primary);
         text-align:center;
         font-size: 1.35rem;
         font-weight: 550;

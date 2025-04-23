@@ -1,4 +1,4 @@
-nav {
+nav#home {
   width: 24.125rem;
   grid-column: 2;
   justify-self: center;

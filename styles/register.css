@@ -1,0 +1,53 @@
+.register {
+  background-color: #F0F2ED;
+  margin-top: 9.275625rem;
+  padding: 2.5rem 1rem 0;
+  border-radius: 1rem;
+
+  & form{
+    background-color: var(--color-secondary);
+    padding: 1rem;
+    border-radius: 0.875rem;
+
+    & label {
+      display: block;
+      font-family: var(--ff-primary);
+      font-size: 1.25rem ;
+      font-weight: 550;
+      color: #FDFDFD;
+      line-height: 2rem;
+      width: 21.875rem;
+    }
+
+    & .input-wrapper{
+      margin-top: 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: .75rem;
+      background-color: #FFFFFF;
+      padding: .75rem;
+      border-radius: .875rem;
+
+      & button, input {
+      display: inline-block;
+      font-family: var(--ff-primary);
+      padding: 0.875rem 1.75rem;
+      border: 1px solid #99A2A5;
+      color: var(--color-secondary);
+      border-radius: .5rem;
+      }
+
+      & button {
+        background-color: var(--color-secondary);
+        border: none;
+        color: #FDFDFD;
+        line-height: 1.5rem;
+        font-size: 1rem;
+        cursor: pointer;
+      }
+    }
+
+    
+  }
+
+}

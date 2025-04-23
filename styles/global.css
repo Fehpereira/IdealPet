@@ -20,6 +20,10 @@ body {
   /* overflow-x: hidden; */
 }
 
+a {
+  text-decoration: none;
+}
+
 .buttons-wrapper {
   display: flex;
   justify-content: center;

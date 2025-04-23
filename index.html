@@ -10,7 +10,7 @@
   
 </head>
 <body>
-   <nav>
+   <nav id="home">
     <img src="assets/icons/menu.svg" alt="Ícone de menu">
     <img src="assets/icons/logo.svg" alt="Logo Idealpet">
     <img src="assets/icons/search.svg" alt="Ícone de lupa para pesquisa">
@@ -29,7 +29,7 @@
       </div>
    </section>
 
-   <section class="about">
+   <section class="about" id="about">
     <div class="about-container">
       <header>
         <p>Lorem ipsum lorem ipsum</p>
@@ -67,7 +67,7 @@
     </div>
    </section>
 
-   <section class="pet-muzzle">
+   <section class="pet-muzzle" id="category">
     <figure>
       <img src="assets/dog-muzzle1.jpg" alt="Focinho de um cachorro caramelo">
       <figcaption>
@@ -109,20 +109,72 @@
             <img src="assets/icons/filter.svg" alt="Ícone de filtro">
             <legend>Endereços registrados</legend>
         </div>
+
         <img src="assets/dog-location.png" alt="Avatar de um cachorro">
 
         <div class="address">
-          <h2>
-            Endereço de registro
-          </h2>
-          <img src="assets/icons/location.svg" alt="Ícone de localização">
-          <span>Rua Antonio Soares Total, Arcoverde-PE</span>
-
-          <img src="assets/icons/heart.svg" alt="Ícone de coração">
+          <div class="title">
+            <h2>
+              Endereço de registro
+            </h2>
+            
+            <span>
+              <img src="assets/icons/location.svg" alt="Ícone de localização">
+              Rua Antonio Soares Total, Arcoverde-PE
+            </span>
+          </div>
+            <img src="assets/icons/heart.svg" alt="Ícone de coração">
         </div>
       </figcaption>
      </figure>
+
+     <div>
+        <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+        <small>Lorem Ipsum</small>
+     </div>
    </section>
+
+   <section class="register">
+     <form>
+        <label for="email">Register Now So You Don't Miss Our Programs</label>
+        <div class="input-wrapper">
+          <input type="email" name="email" id="email" placeholder="Enter your Email">
+          <button class="btn">Subscribe Now</button>
+        </div>
+      </form>
+   </section>
+
+   <footer>
+    <nav>
+
+      <div class="internal-links">
+        <a href="#home">Home</a>
+        <a href="#category">Category</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="social-links">
+        <a href=""><img src="./assets/icons/Facebook - Negative.svg" alt="Ícone do Facebook"></a>
+        <a href=""><img src="./assets/icons/Twitter - Negative.svg" alt="Ícone do Twitter"></a>
+        <a href=""><img src="./assets/icons/Instagram - Negative.svg" alt="Ícone do Instagram"></a>
+        <a href=""><img src="./assets/icons/YouTube - Negative.svg" alt="Ícone do YouTube"></a>
+      </div>
+
+    </nav>
+    
+    <hr>
+
+    <div class="terms">
+      <img src="assets/icons/logo.svg" alt="Logo Idealpet">
+      <div class="links">
+        <a href="#">Terms of Service</a> <a href="#">Privacy Policy</a>
+      </div>
+      <small>&copy; 2022 Monito. All rights reserved.</small>
+    </div>
+
+   </footer> 
+
 
 </body>
 </html>

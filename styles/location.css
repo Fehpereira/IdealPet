@@ -11,7 +11,7 @@
         position: absolute;
         top: 1.23625rem;
         display: flex;
-        background-color: white;
+        background-color: #FFFFFF;
         border-radius: 1.7rem;
         padding: 0.9375rem 1.875rem;
         gap: 0.625rem;
@@ -24,6 +24,78 @@
         }
         
       }
+
+      & img[src*="dog-location.png"]{
+        position: absolute;
+        top: 28.665625rem;
+        align-self: center;
+      }
+
+      & div.address{
+        position: absolute;
+        top: 36.23755rem;
+        align-self: center;
+        background-color: #FFFFFF;
+        padding: 1.545rem;
+        border-radius: 2.5rem;
+        display: flex;
+        opacity: 0.85;
+
+        & .title{
+          display: flex;
+          flex-direction: column;
+          gap: .9rem;
+          
+          & h2{
+            font-family: var(--ff-secondary);
+            font-size: 1.390625rem;
+          }
+
+          & span {
+            display: flex;
+            align-items: center;
+            font-size: 0.66375rem;
+            width: 10.2rem;
+            gap: .25rem;
+            font-family: var(--ff-secondary);
+            color: #5F5F63;
+          }
+        }
+
+        & img[src*="heart"]{
+          width: 1.854375rem;
+          height: 1.854375rem;
+          margin-left: 3rem;
+        }
+      }
+    }
+  }
+
+  & > div {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--ff-secondary);
+    align-items: center;
+    gap: .75rem;
+    line-height: 1.4 ;
+    width: 23.6875rem;
+    margin-left: auto ;
+    padding-top: 1.80375rem;
+
+    & p{
+      font-size: .875rem;
+    }
+
+    & small{
+      font-size: 0.625rem;
+      letter-spacing: 0.38px;
+      line-height: 1.3;
+      color: #7D7A78; 
     }
   }
 }
+
+
+
+

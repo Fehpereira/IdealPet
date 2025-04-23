@@ -13,5 +13,6 @@ nav#home {
   & img{
     display: inline-block;
     max-width: 7.08375rem;
+    cursor: pointer;
   }
 }

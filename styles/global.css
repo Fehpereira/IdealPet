@@ -53,3 +53,10 @@ a {
     }
   }
 }
+
+.bg {
+  grid-column: 2/3;
+  background-color: #F0F2ED;
+  margin-top: 9.275625rem;
+  border-radius: 2rem;
+}

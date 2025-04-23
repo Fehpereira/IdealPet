@@ -7,6 +7,7 @@
       flex-direction: column;
 
       & .filter{
+        cursor: pointer;
         align-self: center;
         position: absolute;
         top: 1.23625rem;

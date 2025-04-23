@@ -10,6 +10,7 @@ footer {
     & .internal-links, & .social-links {
       display: flex;
     }
+    
     & .internal-links {
       margin-bottom: 1.25rem;
       gap: 2.5rem;

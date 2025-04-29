@@ -42,6 +42,7 @@ nav#home {
     }
 
     & .buttons-wrapper{
+      display: flex;
       margin: 0;
       margin-left: auto;
       align-items: center;

@@ -4,7 +4,7 @@
   --color-secondary: #003459;
   --text-color-primary: #242B33;
   --text-color-secondary: #7D7A78;
-  --ff-primary: "New Kansas", serif;
+  --ff-primary: "Bree serif", serif;
   --ff-secondary: "Inter", sans-serif;
 }
 
@@ -59,4 +59,11 @@ a {
   background-color: #F0F2ED;
   margin-top: 9.275625rem;
   border-radius: 2rem;
+}
+
+@media(width >= 123.75rem) {
+  body {
+    display: grid;
+    grid-template-columns: 1fr 123.75rem 1fr;
+  }
 }

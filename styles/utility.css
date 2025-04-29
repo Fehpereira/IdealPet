@@ -1,3 +1,15 @@
 .only-desktop {
   display: none;
 }
+.only-mobile {
+  display: block;
+}
+
+@media(width >= 123.75rem) {
+  .only-desktop {
+    display: block;
+  }
+  .only-mobile {
+    display: none;
+  }
+}

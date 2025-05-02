@@ -52,7 +52,6 @@
     & img{
       display: block;
       width: 17.4375rem;
-      border-radius: 2.6rem;
     }
 
     & h2 {
@@ -147,5 +146,92 @@
 
 
 @media (width >= 123.75rem){
-  
+  .about{
+    display: grid;
+    grid-template-columns: 27.85875rem 1fr 1fr;
+    justify-self: center;
+    max-width: 95.875rem;
+    width: 100%;
+    align-items: initial;
+    gap: 1.25rem;
+
+   & p.only-desktop {
+    align-self: center;
+    width: 100%;
+    font-size: 2.275rem;
+    color: #003459;
+    font-family: var(--ff-primary);
+    margin-bottom: .5rem;
+   }
+
+   & div.about-container{
+    grid-column: 1/4;
+    grid-row: 2;
+    max-width: 94rem;
+    padding: 4.476875rem 2.5rem 2.5rem;
+    overflow: hidden;
+    height: 34rem;
+
+    & header{
+      margin-top: 0;
+      gap: 6.351875rem;
+      align-self: flex-start;
+      width: 40rem;
+      align-items: flex-start;
+
+      & h2{
+        text-align: initial;
+        font-size: 4.3125rem;
+        width: 22.75rem;
+      }
+
+    }
+    & div.overflow{
+      position: initial;
+      align-self: flex-start;
+      align-items: flex-start;
+      margin-top: 5.375rem;
+      width: 38.8575rem;
+
+      & img{
+        position: absolute;
+        display: block;
+        width: 27.6875rem;
+        top: 1.601875rem;
+        right: 11.2925rem;
+      }
+
+      & h2, & p{
+        text-align: initial;
+      }
+
+      & h2 {
+        font-size: 2rem;
+        width: fit-content;
+      }
+
+      & p {
+        font-size: 1.4625rem;
+        max-width: 38.8575rem;
+      }
+    }
+   }
+
+    & .dog-mail, .dog-jump{
+      grid-row: 3;
+      margin-top: 0;
+    }
+    & .dog-jump {
+     grid-column: 1/2;
+     max-width: 27.85875rem;
+     width: 100%;
+    }
+    
+    & .dog-mail {
+      grid-column: 2/4;
+      max-width: 65rem;
+      width: 100%;
+    }
+
+  }
 }

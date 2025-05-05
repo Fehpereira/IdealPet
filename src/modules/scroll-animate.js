@@ -6,8 +6,14 @@ export class ScrollSmooth {
   }
 
   topOfElements() {
-    this.sections.forEach((section) => {
-      const distanceOfTop = section.offsetTop
-    });
+    this.sectionsDatas = [...this.sections].map((section) => {
+      const offsetTop = section.offsetTop
+      console.log(offsetTop)
+      return {
+        element: section,
+        offset: Math.floor(offsetTop - this.windowHalf)
+      }
+    })
+
   }
 }

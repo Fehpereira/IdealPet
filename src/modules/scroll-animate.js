@@ -1,8 +1,10 @@
+import debounce from './debounce.js';
+
 export class ScrollSmooth {
   constructor(sections, windowHalf) {
     this.sections = document.querySelectorAll(sections);
     this.windowHalf = windowHalf;
-    this.isVisible = this.isVisible.bind(this);
+    this.isVisible = debounce(this.isVisible.bind(this), 70);
   }
 
   topOfElements() {
@@ -19,6 +21,7 @@ export class ScrollSmooth {
   }
 
   isVisible() {
+    console.log('teste')
     this.sectionsDatas.forEach((item) => {
       if (window.pageYOffset > item.offset) {
         item.element.classList.add('active');

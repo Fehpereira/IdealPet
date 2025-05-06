@@ -81,6 +81,33 @@ a {
   animation: fadeInUp 0.8s ease-out forwards;
 }
 
+nav#home [data-animate="drop-down"] {
+  position: relative;
+  & ul[role="list"] {
+    display: none;
+
+    &.active{
+    display: block;
+    background-color: #7D7A78;
+    position: absolute;
+    margin-top: 1rem;
+    top: 0.5rem;
+    left: -1rem;
+    animation: fadeInUp 0.1s ease-out forwards;
+    z-index: 10;
+    width: max-content;
+
+    & li {
+      cursor: pointer;
+      font-family: var(--ff-primary);
+      width: 6.5rem;
+      padding: .275rem .5rem;
+      border: 1px solid gray;
+    }
+   }
+  }
+}
+
 @media(width >= 123.75rem) {
   body {
     display: grid;

@@ -24,7 +24,7 @@ export class ScrollSmooth {
         item.element.classList.add('active');
       } else if (item.element.classList.contains('active')) {
         item.element.classList.remove('active');
-      } 
+      }
     });
   }
 
@@ -35,5 +35,7 @@ export class ScrollSmooth {
   init() {
     this.topOfElements();
     this.sectionsAddEvents();
+
+    return this;
   }
 }

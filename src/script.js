@@ -1,4 +1,5 @@
 import { ScrollSmooth } from './modules/scroll-animate.js';
+import { DropDown } from './modules/dropdown-menu.js';
 
 const scroll = new ScrollSmooth(
   '[data-animate="scroll"]',
@@ -6,3 +7,7 @@ const scroll = new ScrollSmooth(
 );
 
 scroll.init();
+
+const dropdown = new DropDown('[data-animate="drop-down"] a', 'active');
+
+dropdown.init()

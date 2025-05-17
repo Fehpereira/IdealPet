@@ -2,6 +2,10 @@
   margin-top: 2.375rem;
   & figure {
     position: relative;
+    overflow: hidden;
+    height: 49.3125rem;
+    background: url('../assets/map-mobile.png');
+
     & figcaption {
       display: flex;
       flex-direction: column;
@@ -97,6 +101,83 @@
   }
 }
 
+@media (width >= 123.75rem) {
+  .location {
+    margin-top: 4.4375rem;
 
+    & h2 {
+      font-size: 3rem;
+      font-family: var(--ff-secondary);
+      text-align: center;
+      font-weight: 400;
 
+      margin-bottom: 2.25rem;
+    }
 
+    & figure {
+       background: url('../assets/map.png');
+
+       & figcaption {
+
+        & .filter {
+          display: none;
+        }
+
+        & img[src*="dog-location.png"]{
+        position: absolute;
+        top: 11.5rem;
+        width: 10.793125rem;
+        align-self: center;
+      }
+        & div.address{
+          padding: 2.65rem;
+          top: 24.65875rem;
+          width: 40.878125rem;
+          height: 13.203125rem;
+          justify-content: space-between;
+
+          & .title {
+            gap: 1.625rem;
+
+            & h2 {
+              line-height: 1.3;
+              font-size: 2.5rem;
+              font-weight: 700;
+            }
+            
+            & span {
+              font-size: 1.125rem;
+              width: 80%;
+              gap: .5rem;
+
+              & img {
+                width: 2.7rem;
+                height: 2.7rem;
+              }
+            }
+
+          }
+          & img[src*="heart"]{
+           width: 3.25rem;
+           height: 3.25rem;
+       }
+      }
+     }
+    }
+
+    & > div {
+      width: 38rem;
+      margin-inline: auto;
+      margin-top: 7.875rem;
+      gap: 1.3rem;
+
+      & p {
+        font-size: 1.4rem;
+      }
+
+      & small {
+        font-size: 1rem;
+      }
+    }
+  }
+}

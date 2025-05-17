@@ -71,14 +71,14 @@ a {
   }
 }
 
-[data-animate="scroll"]{
+/* [data-animate="scroll"]{
   opacity: 0;
 }
 
 [data-animate="scroll"].active{
   opacity: 0;
   animation: fadeInUp 0.8s ease-out forwards;
-}
+} */
 
 nav#home [data-animate="drop-down"] {
   position: relative;

@@ -21,7 +21,6 @@ export class ScrollSmooth {
   }
 
   isVisible() {
-    console.log('teste')
     this.sectionsDatas.forEach((item) => {
       if (window.pageYOffset > item.offset) {
         item.element.classList.add('active');

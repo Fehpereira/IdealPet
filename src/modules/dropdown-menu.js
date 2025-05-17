@@ -9,10 +9,12 @@ export class DropDown {
   displayDropDown(event) {
     event.preventDefault();
     this.menus.forEach((menu) => {
-      const parent = menu.nextElementSibling;
-      if (event.target === menu) {
+      const parent = event.target.nextElementSibling;
+      if (parent.contains(event.target) || menu.contains(event.target)) {
         parent.classList.toggle(this.activeClass);
-        document.addEventListener('click', this.handleClickOutside);
+        setTimeout(() => {
+          document.addEventListener('click', this.handleClickOutside);
+        }, 0);
       }
     });
   }

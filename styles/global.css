@@ -71,14 +71,14 @@ a {
   }
 }
 
-[data-animate="scroll"]{
+/* [data-animate="scroll"]{
   opacity: 0;
 }
 
 [data-animate="scroll"].active{
-  opacity: 0;
+
   animation: fadeInUp 0.8s ease-out forwards;
-}
+} */
 
 nav#home [data-animate="drop-down"] {
   position: relative;
@@ -111,5 +111,9 @@ nav#home [data-animate="drop-down"] {
   body {
     display: grid;
     grid-template-columns: 1fr 123.75rem 1fr;
+  }
+
+  .bg{
+    background-color: initial;
   }
 }
